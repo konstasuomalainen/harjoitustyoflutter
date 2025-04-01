@@ -1,16 +1,42 @@
-# harjoitustyoflutter
+# PokeApp
 
-A new Flutter project.
+## Tekijät
+Tämän sovelluksen ovat kehittäneet [lisää tekijöiden nimet].
 
-## Getting Started
+## Sovelluksen kuvaus
+PokeApp on Flutter-sovellus, joka hyödyntää PokeAPI:ta ja Firebasen autentikaatiota. Käyttäjät voivat hakea Pokémoneja, tarkastella niiden tietoja ja lisätä suosikkinsa omalle lempipokémonien listalleen.
 
-This project is a starting point for a Flutter application.
+## Ominaisuudet
+- Käyttäjän kirjautuminen ja rekisteröinti Firebase Authenticationin avulla
+- Pokémonien haku ja tietojen näyttäminen PokeAPI:sta
+- Lempipokémonien valinta ja tallennus käyttäjäkohtaisesti
+- Responsiivinen käyttöliittymä
 
-A few resources to get you started if this is your first Flutter project:
+## Käytetyt paketit
+Sovelluksessa on hyödynnetty seuraavia Flutter-paketteja:
+- `firebase_auth` – Käyttäjän tunnistautumiseen
+- `cloud_firestore` – Käyttäjäkohtaisten tietojen tallentamiseen
+- `http` – PokeAPI:sta tietojen hakemiseen
+- `provider` – Tilanhallintaan
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Ulkoiset palvelut
+- **Firebase Authentication**: Käyttäjän kirjautumiseen
+- **Cloud Firestore**: Käyttäjän lempipokémonien tallentamiseen
+- **PokeAPI**: Pokémon-tietojen hakemiseen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Puhelimen ominaisuudet
+Sovellus ei vaadi erityisiä laitteistoominaisuuksia, vaan toimii internet-yhteyden varassa.
+
+## Näkymät
+1. **Kirjautumisnäyttö** – Käyttäjä voi kirjautua sisään tai rekisteröityä.
+2. **Päänäkymä** – Käyttäjä voi hakea Pokémoneja ja tarkastella niitä.
+3. **Lempipokémonit** – Lista käyttäjän tallentamista suosikkipokémoneista.
+
+## Perustuuko esimerkkikoodiin?
+Sovellus on toteutettu omana projektina, mutta sen kehittämisessä on voitu hyödyntää seuraavia esimerkkejä:
+- [Linkki mahdolliseen esimerkkiprojektiin]
+
+## Tekoälyn hyödyntäminen
+Sovellus ei suoraan hyödynnä tekoälyä, mutta mahdollista laajennusta voisi olla esimerkiksi suosittelualgoritmi, joka ehdottaa Pokémoneja käyttäjän suosikkien perusteella.
+
+Tekoälyä on käytetty readme.md-tiedoston rakenteen ja kieliasun parantamiseen.
